@@ -2,7 +2,9 @@
 
 Bu projede, 'Vehicle' sınıfı, diğer tüm araç türleri için ortak özellikleri ve davranışları içeren bir temel sınıftır. 'Vehicle' sınıfı, Id, Color, ModelYear ve FuelType gibi ortak özellikleri tanımlar.
 'Car', 'Bus', 'Boat' ve 'Plane' sınıfları, 'Vehicle' sınıfından türetilmiş sınıflardır.Bu türetilmiş sınıflar, Vehicle sınıfının özelliklerini miras alır ve onları genişletir. 'Car' sınıfı, kendi türüne özgü ekstra özellikleri 'HeadlightsOn' ve 'Wheels' özelliğini içerir.
+
 http://localhost:5038
+
 ## API' nin özellikleri
 - [GET] Kullanıcı arabaları.otobüsleri,tekneleri ve uçakları rengine göre seçebilir.
 - [GET] Kullanıcı uçakları model yılına göre seçebilir.
@@ -16,14 +18,15 @@ http://localhost:5038
 ## Kullanım
 
 ### Bu istek tüm araçları listeler.
-GET : http://localhost:5038/api/vehicles/all
+- GET : /api/vehicles/all
+
 ![vehicles_all](https://github.com/muminkurnaz/web-api-project/assets/112796390/dd0591b7-1149-48ff-8511-f1018f51d31a)
 
 ### Bu istekler ilgili araçları listeler
-GET : /api/vehicles/cars
-GET : /api/vehicles/buses
-GET : /api/vehicles/planes
-GET : /api/vehicles/boats
+- GET : /api/vehicles/cars
+- GET : /api/vehicles/buses
+- GET : /api/vehicles/planes
+- GET : /api/vehicles/boats
 
 ### Bu istek arabaları rengine göre listeler.
 GET : /api/vehicles/cars/color/red
