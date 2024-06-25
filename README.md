@@ -28,46 +28,47 @@ http://localhost:5038
 - GET : /api/vehicles/planes
 - GET : /api/vehicles/boats
 
-### Bu istek arabaları rengine göre listeler.
-GET : /api/vehicles/cars/color/red
-Bu istek otobüsleri rengine göre listeler.
-GET : /api/vehicles/buses/color/white
-Bu istek uçakları rengine göre listeler. 
-GET : /api/vehicles/planes/color/white
-Bu istek tekneleri rengine göre listeler.
-GET : /api/vehicles/boats/color/red
+### Bu istekler istenilen araç sınıfını rengine göre listeler.
+- GET : /api/vehicles/cars/color/red
+- GET : /api/vehicles/buses/color/white
+- GET : /api/vehicles/planes/color/white
+- GET : /api/vehicles/boats/color/red
 
 ### Bu istek tüm araçları rengine göre listeler.
-GET : /api/vehicles/color/red
+- GET : /api/vehicles/color/red
 
 ### Bu istek arabaları ID numarasına göre farları açıp kapatabilmeye yarar.
-POST : /api/vehicles/cars/1/headlights
+- POST : /api/vehicles/cars/1/headlights
+- 
 ![ıd_far_ac_kapa](https://github.com/muminkurnaz/web-api-project/assets/112796390/e905e9b4-1625-48f4-bdde-287d4b6378b2)
 
 
-Bu istekler araçları ID numarasına göre silmeye yarar.
-DELETE : /api/vehicles/cars/6
-DELETE : /api/vehicles/boats/4
-DELETE : /api/vehicles/planes/1
-DELETE : /api/vehicles/buses/2
+### Bu istekler araçları ID numarasına göre silmeye yarar.
+- DELETE : /api/vehicles/cars/6
+- DELETE : /api/vehicles/boats/4
+- DELETE : /api/vehicles/planes/1
+- DELETE : /api/vehicles/buses/2
 
-Bu istekler ilgili sınıfa araç eklemeye yarar.
-POST : /api/vehicles/cars
-POST : /api/vehicles/buses
-POST : /api/vehicles/planes
-POST : /api/vehicles/boats
+### Bu istekler ilgili sınıfa araç eklemeye yarar.
+- POST : /api/vehicles/cars
+- POST : /api/vehicles/buses
+- POST : /api/vehicles/planes
+- POST : /api/vehicles/boats
+- 
 ![arac_ekleme](https://github.com/muminkurnaz/web-api-project/assets/112796390/06c38d45-80ad-4a6b-ad30-0a05b4d66231)
 
 
-Bu istekler ilgili sınıfa ait araçları model yılına göre listeler.
-GET : /api/vehicles/planes/modelyear/2023
-GET : /api/vehicles/cars/modelyear/2024
-GET : /api/vehicles/buses/modelyear/2024
-GET : /api/vehicles/boats/modelyear/2022
+### Bu istekler ilgili sınıfa ait araçları model yılına göre listeler.
+- GET : /api/vehicles/planes/modelyear/2023
+- GET : /api/vehicles/cars/modelyear/2024
+- GET : /api/vehicles/buses/modelyear/2024
+- GET : /api/vehicles/boats/modelyear/2022
+- 
 ![MODEL_YILINA_LİSTELE](https://github.com/muminkurnaz/web-api-project/assets/112796390/da9698d4-be0e-4632-ac5f-7f15a664a8d6)
 
-Bu istek tüm araçları model yılına göre artan şekilde listeler.
-GET : http://localhost:5038/api/vehicles/sorted/modelyear
+### Bu istek tüm araçları model yılına göre artan şekilde listeler.
+- GET : http://localhost:5038/api/vehicles/sorted/modelyear
+- 
 ![MODELYIL_SIRALAMA](https://github.com/muminkurnaz/web-api-project/assets/112796390/2242424b-4469-4069-a600-49bb190d3d7e)
 
 ### Postman Test Ekran Görüntüleri
