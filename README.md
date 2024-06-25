@@ -77,8 +77,6 @@ http://localhost:5038
 
 ![MODELYIL_SIRALAMA](https://github.com/muminkurnaz/web-api-project/assets/112796390/2242424b-4469-4069-a600-49bb190d3d7e)
 
-### Postman Test Ekran Görüntüleri
-
 
 ### Gereksinimler
 - .NET 8 SDK
