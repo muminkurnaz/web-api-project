@@ -15,49 +15,59 @@ Bu projede, 'Vehicle' sınıfı, diğer tüm araç türleri için ortak özellik
 
 ### Kullanım
 Bu istek tüm araçları listeler.
-http://localhost:5038/api/vehicles/all
+GET : http://localhost:5038/api/vehicles/all
+![vehicles_all](https://github.com/muminkurnaz/web-api-project/assets/112796390/dd0591b7-1149-48ff-8511-f1018f51d31a)
 
 Bu istekler ilgili araçları listeler
-http://localhost:5038/api/vehicles/cars
-http://localhost:5038/api/vehicles/buses
-http://localhost:5038/api/vehicles/planes
-http://localhost:5038/api/vehicles/boats
+GET : http://localhost:5038/api/vehicles/cars
+GET : http://localhost:5038/api/vehicles/buses
+GET : http://localhost:5038/api/vehicles/planes
+GET : http://localhost:5038/api/vehicles/boats
 
 Bu istek arabaları rengine göre listeler.
-http://localhost:5038/api/vehicles/cars/color/red
+GET : http://localhost:5038/api/vehicles/cars/color/red
 Bu istek otobüsleri rengine göre listeler.
-http://localhost:5038/api/vehicles/buses/color/white
+GET : http://localhost:5038/api/vehicles/buses/color/white
 Bu istek uçakları rengine göre listeler. 
-http://localhost:5038/api/vehicles/planes/color/white
+GET : http://localhost:5038/api/vehicles/planes/color/white
 Bu istek tekneleri rengine göre listeler.
-http://localhost:5038/api/vehicles/boats/color/red
+GET : http://localhost:5038/api/vehicles/boats/color/red
 
 Bu istek tüm araçları rengine göre listeler.
-http://localhost:5038/api/vehicles/color/red
+GET : http://localhost:5038/api/vehicles/color/red
 
 Bu istek arabaları ID numarasına göre farları açıp kapatabilmeye yarar.
-http://localhost:5038/api/vehicles/cars/1/headlights
+POST : http://localhost:5038/api/vehicles/cars/1/headlights
+![ıd_far_ac_kapa](https://github.com/muminkurnaz/web-api-project/assets/112796390/e905e9b4-1625-48f4-bdde-287d4b6378b2)
+
 
 Bu istekler araçları ID numarasına göre silmeye yarar.
-http://localhost:5038/api/vehicles/cars/6
-http://localhost:5038/api/vehicles/boats/4
-http://localhost:5038/api/vehicles/planes/1
-http://localhost:5038/api/vehicles/buses/2
+DELETE : http://localhost:5038/api/vehicles/cars/6
+DELETE : http://localhost:5038/api/vehicles/boats/4
+DELETE : http://localhost:5038/api/vehicles/planes/1
+DELETE : http://localhost:5038/api/vehicles/buses/2
 
 Bu istekler ilgili sınıfa araç eklemeye yarar.
-http://localhost:5038/api/vehicles/cars
-http://localhost:5038/api/vehicles/buses
-http://localhost:5038/api/vehicles/planes
-http://localhost:5038/api/vehicles/boats
+POST : http://localhost:5038/api/vehicles/cars
+POST : http://localhost:5038/api/vehicles/buses
+POST : http://localhost:5038/api/vehicles/planes
+POST : http://localhost:5038/api/vehicles/boats
+![arac_ekleme](https://github.com/muminkurnaz/web-api-project/assets/112796390/06c38d45-80ad-4a6b-ad30-0a05b4d66231)
+
 
 Bu istekler ilgili sınıfa ait araçları model yılına göre listeler.
-http://localhost:5038/api/vehicles/planes/modelyear/2023
-http://localhost:5038/api/vehicles/cars/modelyear/2024
-http://localhost:5038/api/vehicles/buses/modelyear/2024
-http://localhost:5038/api/vehicles/boats/modelyear/2022
+GET : http://localhost:5038/api/vehicles/planes/modelyear/2023
+GET : http://localhost:5038/api/vehicles/cars/modelyear/2024
+GET : http://localhost:5038/api/vehicles/buses/modelyear/2024
+GET : http://localhost:5038/api/vehicles/boats/modelyear/2022
+![MODEL_YILINA_LİSTELE](https://github.com/muminkurnaz/web-api-project/assets/112796390/da9698d4-be0e-4632-ac5f-7f15a664a8d6)
 
 Bu istek tüm araçları model yılına göre artan şekilde listeler.
-http://localhost:5038/api/vehicles/sorted/modelyear
+GET : http://localhost:5038/api/vehicles/sorted/modelyear
+![MODELYIL_SIRALAMA](https://github.com/muminkurnaz/web-api-project/assets/112796390/2242424b-4469-4069-a600-49bb190d3d7e)
+
+### Postman Test Ekran Görüntüleri
+
 
 ### Gereksinimler
 - .NET 8 SDK
