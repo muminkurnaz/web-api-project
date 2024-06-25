@@ -46,8 +46,7 @@ http://localhost:5038
 ### Bu istek arabaları ID numarasına göre farları açıp kapatabilmeye yarar.
 - POST : /api/vehicles/cars/1/headlights
  
-![ıd_far_ac_kapa](https://github.com/muminkurnaz/web-api-project/assets/112796390/e905e9b4-1625-48f4-bdde-287d4b6378b2)
-
+![5](https://github.com/muminkurnaz/web-api-project/assets/112796390/7ac40fbf-87b0-44c4-81b2-949b11080a12)
 
 ### Bu istekler araçları ID numarasına göre silmeye yarar.
 - DELETE : /api/vehicles/cars/6
@@ -63,8 +62,7 @@ http://localhost:5038
 - POST : /api/vehicles/planes
 - POST : /api/vehicles/boats
  
-![arac_ekleme](https://github.com/muminkurnaz/web-api-project/assets/112796390/06c38d45-80ad-4a6b-ad30-0a05b4d66231)
-
+![6](https://github.com/muminkurnaz/web-api-project/assets/112796390/bbd437ab-fddf-4b95-8f55-8567d5fbc0f6)
 
 ### Bu istekler ilgili sınıfa ait araçları model yılına göre listeler.
 - GET : /api/vehicles/planes/modelyear/2023
